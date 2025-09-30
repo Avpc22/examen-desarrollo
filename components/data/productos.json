@@ -1,0 +1,76 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nomnre": "Llanta Pirelli",
+      "medida": "140/70-17",
+      "modelo": "Diablo Rosso Sport",
+      "precio": 346000,
+      "imagen": "imagenes/llanta1.webp"
+    },
+    {
+      "id": 2,
+      "nomnre": "Llanta Pirelli",
+      "medida": "100/80-17",
+      "modelo": "Diablo Rosso Sport",
+      "precio": 273000,
+      "imagen": "imagenes/llanta2.webp"
+    },
+    {
+      "id": 3,
+      "nomnre": "Llanta Pirelli",
+      "medida": "130/70-17",
+      "modelo": "Diablo Rosso Sport",
+      "precio": 339000,
+      "imagen": "imagenes/llanta3.webp"
+    },
+    {
+      "id": 4,
+      "nomnre": "Llanta Dunlop",
+      "medida": "110/70-17",
+      "modelo": "Gt601",
+      "precio": 216000,
+      "imagen": "imagenes/llanta5.webp"
+    },
+    {
+      "id": 5,
+      "nomnre": "Llanta Dunlop",
+      "medida": "100/80-17",
+      "modelo": "Gt601",
+      "precio": 219000,
+      "imagen": "imagenes/llanta5.webp"
+    },
+    {
+      "id": 6,
+      "nomnre": "Llanta Timsun",
+      "medida": "100/80-17",
+      "modelo": "Ts659 Soft",
+      "precio": 175000,
+      "imagen": "imagenes/llanta6.webp"
+    },
+    {
+      "id": 7,
+      "nomnre": "Llanta Ceat Zoom",
+      "medida": "150/60-17",
+      "modelo": "Rad X1",
+      "precio": 278000,
+      "imagen": "imagenes/llanta7.webp"
+    },
+    {
+      "id": 8,
+      "nomnre": "Llanta Dunlop",
+      "medida": "140/70-17",
+      "modelo": "Gt601",
+      "precio": 304000,
+      "imagen": "imagenes/llanta8.webp"
+    },
+    {
+      "id": 9,
+      "nomnre": "Llanta Pirelli",
+      "medida": "150/60-17",
+      "modelo": "Diablo Rosso 4",
+      "precio": 536000,
+      "imagen": "imagenes/llanta9.webp"
+    }
+  ]
+}
