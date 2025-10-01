@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="styles.css">
+  <form id="formulario">
+    <label>
+      correo electonico:
+     <input type="text" name="documento" type="email" class="form-control" placeholder="tu@ejemplo.com" required>
+    </label>
+    <form id="loginForm" class="w-100" style="max-width:420px;">
+  <div class="mb-3">
+  </div>
+  <div class="mb-3 position-relative">
+    <label for="password" class="form-label">Contraseña</label>
+    <div>
+         <input type="text" name="documento" type="email" class="form-control" placeholder="abcd52684" required >
+    
+         <div class="input-group">
+     
+      <!-- Botón para mostrar/ocultar. type="button" para que NO envíe el formulario -->
+      <button id="togglePassword" type="button" class="btn btn-outline-secondary"
+              aria-label="Mostrar contraseña" title="Mostrar contraseña">
+        <!-- Icono ojo (SVG) -->
+        <svg id="eyeIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+             fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8z"/>
+          <path d="M8 5.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z" fill="#fff"/>
+        </svg>
+      </button>
+    </div>
+    </div>
+     
+
+    <div id="passwordHelp" class="form-text">Pulsa el icono para mostrar u ocultar la contraseña.</div>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+</form>
+  <script src="script.js"></script>
