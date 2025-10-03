@@ -20,7 +20,7 @@ class ProductCard extends HTMLElement {
         }
         .price {
           font-weight: bold;
-          color: black;
+          color: green;
           margin-top: 0.5rem;
         }
         #description {
