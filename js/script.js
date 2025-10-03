@@ -50,3 +50,5 @@ togglePassword.addEventListener("click", () => {
     eyeIcon.setAttribute("fill", "currentColor");
   }
 });
+
+
