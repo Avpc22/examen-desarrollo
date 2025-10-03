@@ -1,41 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tienda de Llantas para Moto</title>
-  <link rel="stylesheet" href="index.css">
-
-  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
 
-  <!-- 🔝 Barra de navegación -->
+<body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">MotoLlantas</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-              aria-label="Menú">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Menú">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Ofertas</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
           <li class="nav-item"><a class="nav-link" href="login.html">Iniciar Sesión</a></li>
+          <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
         </ul>
       </div>
     </div>
   </nav>
-
-  <!-- 🏍 Banner con carrusel de imágenes -->
   <div id="bannerLlantas" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <!-- Imagen 1 -->
       <div class="carousel-item active">
         <img src="imagenes/Banner llanta (4)_0.png.webp" class="d-block w-100" alt="Llanta deportiva">
         <div class="carousel-caption d-none d-md-block">
@@ -43,24 +34,15 @@
           <p>Llantas deportivas para tu moto.</p>
         </div>
       </div>
-      <!-- Imagen 2 -->
       <div class="carousel-item">
-        <img src="img/llanta2.jpg" class="d-block w-100" alt="Llanta touring">
+        <img src="imagenes/Todas-las-llantas-todos-los-caminos-y-las-mejores-marcas-en-Elige-Llantas-Banner.avif"
+          class="d-block w-100" alt="Llanta touring">
         <div class="carousel-caption d-none d-md-block">
           <h5>Durabilidad y confianza</h5>
           <p>Perfectas para recorrer largos caminos.</p>
         </div>
       </div>
-      <!-- Imagen 3 -->
-      <div class="carousel-item">
-        <img src="img/llanta3.jpg" class="d-block w-100" alt="Llanta urbana">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Rendimiento en ciudad</h5>
-          <p>Comodidad y seguridad en tu día a día.</p>
-        </div>
-      </div>
     </div>
-    <!-- Botones de control -->
     <button class="carousel-control-prev" type="button" data-bs-target="#bannerLlantas" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Anterior</span>
@@ -70,16 +52,125 @@
       <span class="visually-hidden">Siguiente</span>
     </button>
   </div>
-
-  <!-- 🛒 Sección de bienvenida -->
   <section class="container py-5">
     <div class="text-center">
       <h2>Bienvenido a MotoLlantas</h2>
       <p class="lead">Tu tienda de confianza en llantas para motos, con calidad y los mejores precios.</p>
     </div>
   </section>
+  <div class="container text-center mt-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
 
-  <!-- ⚡ Scripts de Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <div class="col">
+        <div class="card">
+          <div class="img-card">
+            <img src="imagenes/llanta1.webp" class="card-img-top" alt="llanta 1">
+            <h5 class="card-title">Llanta Deportiva 17”</h5>
+          </div>
+          <div class="card-body">
+            <div class="card-description">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="img-card">
+            <img src="imagenes/llanta2.webp" class="card-img-top" alt="llanta 2">
+            <h5 class="card-title">Llanta Touring 18”</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="img-card">
+            <img src="imagenes/llanta3.webp" class="card-img-top" alt="llanta 3">
+            <h5 class="card-title">Llanta Off-road 21”</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="img-card">
+            <img src="imagenes/llanta4.webp" class="card-img-top" alt="llanta 4">
+            <h5 class="card-title">Llanta Urbana 14”</h5>
+          </div>
+          <div class="card-body">
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="img-card">
+            <img src="imagenes/llanta5.webp" class="card-img-top" alt="llanta 5">
+            <h5 class="card-title">Llanta Racing 16”</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="img-card">
+            <img src="imagenes/llanta6.webp" class="card-img-top" alt="llanta 6">
+            <h5 class="card-title">Llanta Mixta 19”</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="img-card">
+            <img src="imagenes/llanta7.webp" class="card-img-top" alt="llanta 7">
+            <h5 class="card-title">Llanta Clásica 15”</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="img-card">
+            <img src="imagenes/llanta8.webp" class="card-img-top" alt="llanta 8">
+            <h5 class="card-title">Llanta Trail 20”</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="img-card">
+            <img src="imagenes/llanta9.webp" class="card-img-top" alt="llanta 9">
+            <h5 class="card-title">Llanta Premium 19”</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+<footer class="footer">
+  <div class="container-footer">
+    <div class="footer-col">
+      <h4>MotoLlantas</h4>
+      <p>Tu tienda de confianza en llantas para motos. Calidad, seguridad y los mejores precios.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="#">Productos</a></li>
+        <li><a href="login.html">Iniciar Sesión</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 MotoLlantas | Todos los derechos reservados</p>
+  </div>
+</footer>
+
 </html>
